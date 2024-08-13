@@ -1,0 +1,31 @@
+ /* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.default-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  background-color: #282c34;
+}
+
+.target-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: #007bff;
+}
+
+.digital-timer {
+  font-family: 'Digital-7', sans-serif; /* Ensure you include a digital font */
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Optionally include a Google Font link for 'Digital-7' or similar in your HTML head */
